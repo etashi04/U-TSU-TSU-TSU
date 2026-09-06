@@ -22,8 +22,8 @@ jobs:
           set -euo pipefail
           gh api "repos/$GITHUB_REPOSITORY/releases/tags/$TAG" --jq '.assets[] | [.id,.name] | @tsv' | while IFS=$'\t' read -r id name; do
             case "$name" in
-              *Manual*) gh api --method PATCH "repos/$GITHUB_REPOSITORY/releases/assets/$id" -f label='うつらうつらとつつうらうらと 한국어 패치 (Manual)' ;;
-              *Korean_Patch*) gh api --method PATCH "repos/$GITHUB_REPOSITORY/releases/assets/$id" -f label='うつらうつらとつつうらうらと 한국어 패치 (Auto)' ;;
+              *Manual*) gh api --method PATCH "repos/$GITHUB_REPOSITORY/releases/assets/$id" -f label='UTSUTSUTSU 한국어 패치 (Manual)' ;;
+              *Korean_Patch*) gh api --method PATCH "repos/$GITHUB_REPOSITORY/releases/assets/$id" -f label='UTSUTSUTSU 한국어 패치 (Auto)' ;;
               *SHA*) gh api --method PATCH "repos/$GITHUB_REPOSITORY/releases/assets/$id" -f label='SHA-256 체크섬' ;;
             esac
           done
