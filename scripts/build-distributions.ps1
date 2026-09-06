@@ -27,8 +27,8 @@ New-Item -ItemType Directory -Force -Path (Join-Path $manual '패치파일') | O
 Copy-Item -Path (Join-Path $payload '*') -Destination (Join-Path $manual '패치파일') -Recurse -Force
 Copy-Item (Join-Path $repo 'distribution\README_Manual.txt') (Join-Path $manual 'README.txt')
 Copy-Item (Join-Path $repo 'THIRD_PARTY_NOTICES.txt') (Join-Path $manual '제3자_라이선스_고지.txt')
-$autoZip = Join-Path $dist "Utsutsutsu_Korean_Patch_Auto_v$Version.zip"
-$manualZip = Join-Path $dist "Utsutsutsu_Korean_Patch_Manual_v$Version.zip"
+$autoZip = Join-Path $dist "UTSUTSUTSU_Korean_Patch_v$Version.zip"
+$manualZip = Join-Path $dist "UTSUTSUTSU_Korean_Patch_Manual_v$Version.zip"
 Compress-Archive -Path (Join-Path $auto '*') -DestinationPath $autoZip -CompressionLevel Optimal -Force
 Compress-Archive -Path (Join-Path $manual '*') -DestinationPath $manualZip -CompressionLevel Optimal -Force
 $hashes = Get-FileHash -Algorithm SHA256 $autoZip,$manualZip | ForEach-Object { $_.Hash.ToLowerInvariant() + ' *' + (Split-Path -Leaf $_.Path) }

@@ -14,8 +14,8 @@ Steam판 **うつらうつらとつつうらうらと** 비공식 한국어 패�
 
 ## 배포본
 
-- `Utsutsutsu Korean Patch (Auto)`: GUI 설치기를 통한 자동 설치·원본 복구
-- `Utsutsutsu Korean Patch (Manual)`: 게임 실행 파일이 있는 폴더에 직접 복사
+- `UTSUTSUTSU_Korean_Patch_v1.0.0-rc1.zip`: GUI 설치기를 통한 자동 설치·원본 복구
+- `UTSUTSUTSU_Korean_Patch_Manual_v1.0.0-rc1.zip`: 게임 실행 파일이 있는 폴더에 직접 복사
 - `SHA256SUMS.txt`: 배포 ZIP 무결성 확인용 체크섬
 
 게임을 종료한 상태에서 설치하세요. 저장 데이터는 수정하지 않습니다.
