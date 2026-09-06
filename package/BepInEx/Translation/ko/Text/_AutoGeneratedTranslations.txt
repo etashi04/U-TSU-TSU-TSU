@@ -1,0 +1,12 @@
+﻿ ● License\n   ● SE素材\r\n     ● スマートフォン UIサウンド01：OtoLogic(CC BY 4.0)\n   ● フォント\n     ● Kaisei Decol\n	Copyright 2020 The Kaisei Project Authors\n	Licensed under the SIL Open Font License, Version 1.1\n     ● KHドットフォント\n	© Keitarou Hiraki, Font Silo 1990-2015.\n	Licensed under the SIL Open Font License, Version 1.1= ● License   ● SE素材     ● スマートフォン UIサウンド01：OtoLogic(CC BY 4.0)   ● フォント     ● Kaisei DecolCopyright 2020 The Kaisei Project AuthorsLicensed under the SIL Open Font License, Version 1.1     ● KHドットフォント© Keitarou Hiraki, Font Silo 1990-2015.Licensed under the SIL Open Font License, Version 1.1
+@ルミ=@루미
+ Slot 1にセーブしますか？=슬롯 1에 저장할까요?
+ Slot 2にセーブしますか？=슬롯 2에 저장할까요?
+ Slot 3にセーブしますか？=슬롯 3에 저장할까요?
+ Slot 4にセーブしますか？=슬롯 4에 저장할까요?
+ Slot 5にセーブしますか？=슬롯 5에 저장할까요?
+ Slot 6にセーブしますか？=슬롯 6에 저장할까요?
+ Slot 7にセーブしますか？=슬롯 7에 저장할까요?
+ Slot 8にセーブしますか？=슬롯 8에 저장할까요?
+ Slot 9にセーブしますか？=슬롯 9에 저장할까요?
+ Slot 10にセーブしますか？=슬롯 10에 저장할까요?

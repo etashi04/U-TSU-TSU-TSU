@@ -1,0 +1,13 @@
+제3자 구성요소 고지
+
+이 배포 후보에는 다음 구성요소가 포함됩니다.
+
+- BepInEx 5.4.23.5: LGPL-2.1
+  https://github.com/BepInEx/BepInEx
+- XUnity.AutoTranslator 5.6.1 및 XUnity.ResourceRedirector: MIT
+  https://github.com/bbepis/XUnity.AutoTranslator
+- Galmuri14: SIL Open Font License 1.1
+  https://github.com/quiple/galmuri
+
+각 구성요소의 저작권은 해당 권리자에게 있습니다. 공개 배포 전 원문 라이선스 파일을
+동봉하고, 최신 공식 저장소의 라이선스 조건과 재배포 요건을 다시 확인해야 합니다.

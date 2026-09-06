@@ -1,0 +1,9 @@
+﻿キャラクターデザイン\n\nMINGO=캐릭터 디자인\n\nMINGO
+企画・シナリオ\n\nNICCHO\nMINGO=기획·시나리오\n\nNICCHO\nMINGO
+うつらうつらと\nつつうらうらと=꾸벅꾸벅\n온 동네를
+背景デザイン\n\nNICCHO=배경 디자인\n\nNICCHO
+グラフィック・演出\n\nNICCHO\nMINGO=그래픽·연출\n\nNICCHO\nMINGO
+プログラム\n\nNICCHO\nMINGO=프로그래밍\n\nNICCHO\nMINGO
+楽曲\n\nYAKOMAK\nNICCHO\nMINGO=음악\n\nYAKOMAK\nNICCHO\nMINGO
+スペシャルサンクス\n\nテストプレイを通して支えてくださった皆様=스페셜 땡스\n\n테스트 플레이로 도움을 주신 모든 분
+使用ツール\n\nUnity\nFungus=사용 도구\n\nUnity\nFungus
