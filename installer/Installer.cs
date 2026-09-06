@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 internal static class Program
 {
-    const string Version = "v1.0.0-rc1";
+    const string Version = "v1.0.0";
     const string ExeHash = "67C89E57ED43C3F0AB90510EC2DD742537FAABA14FAF8246296D139674DFADE7";
-    const string MarkerDir = "_KR_PATCH_v1.0.0-rc1";
+    const string MarkerDir = "_KR_PATCH_v1.0.0";
 
     [STAThread]
     static void Main(string[] args)

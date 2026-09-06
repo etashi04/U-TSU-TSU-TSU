@@ -2,7 +2,7 @@
 
 Steam판 **UTSUTSUTSU** 비공식 한국어 패치 저장소입니다.
 
-현재 배포 후보 버전은 `v1.0.0-rc1`이며 Steam 2026-08-29 빌드, Windows x64 환경에서 확인했습니다.
+현재 정식 배포 버전은 `v1.0.0`이며 Steam 2026-08-29 빌드, Windows x64 환경에서 확인했습니다.
 
 ## 저장소 구성
 
@@ -14,8 +14,8 @@ Steam판 **UTSUTSUTSU** 비공식 한국어 패치 저장소입니다.
 
 ## 배포본
 
-- `UTSUTSUTSU_Korean_Patch_v1.0.0-rc1.zip`: GUI 설치기를 통한 자동 설치·원본 복구
-- `UTSUTSUTSU_Korean_Patch_Manual_v1.0.0-rc1.zip`: 게임 실행 파일이 있는 폴더에 직접 복사
+- `UTSUTSUTSU_Korean_Patch_v1.0.0.zip`: GUI 설치기를 통한 자동 설치·원본 복구
+- `UTSUTSUTSU_Korean_Patch_Manual_v1.0.0.zip`: 게임 실행 파일이 있는 폴더에 직접 복사
 - `SHA256SUMS.txt`: 배포 ZIP 무결성 확인용 체크섬
 
 게임을 종료한 상태에서 설치하세요. 저장 데이터는 수정하지 않습니다.

@@ -1,5 +1,5 @@
 param(
-    [string]$Version = '1.0.0-rc1',
+    [string]$Version = '1.0.0',
     [Parameter(Mandatory)] [string]$BepInExPayload,
     [Parameter(Mandatory)] [string]$Icon,
     [Parameter(Mandatory)] [string]$Logo
