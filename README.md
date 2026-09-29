@@ -4,13 +4,9 @@ Steam판 **UTSUTSUTSU** 비공식 한국어 패치 저장소입니다.
 
 현재 정식 배포 버전은 `v1.0.0`이며 Steam 2026-08-29 빌드, Windows x64 환경에서 확인했습니다.
 
-## 저장소 구성
+<img width="850" height="478" alt="image" src="https://github.com/user-attachments/assets/66173eea-2b93-4e6d-8b58-84f55282275d" />
+<img width="850" height="478" alt="image" src="https://github.com/user-attachments/assets/4a8109ee-379d-4fb2-9f8b-1ee7efd8793d" />
 
-- `src/Utsutsutsu.KoreanAnimatedTextureFix`: 애니메이션 이미지 교체 및 한국어 선택지 폰트 적용 플러그인 소스
-- `package/BepInEx`: 한국어 번역, 전용 플러그인, 폰트와 편집 텍스처
-- `installer`: 자동 패치 GUI 설치기 소스
-- `distribution`: 자동·수동 설치 안내문
-- `scripts`: 배포본 생성 스크립트
 
 ## 배포본
 
@@ -19,14 +15,6 @@ Steam판 **UTSUTSUTSU** 비공식 한국어 패치 저장소입니다.
 - `SHA256SUMS.txt`: 배포 ZIP 무결성 확인용 체크섬
 
 게임을 종료한 상태에서 설치하세요. 저장 데이터는 수정하지 않습니다.
-
-## 확인된 범위
-
-- 본편·후반부 대사와 선택지 한국어 출력
-- 저장/불러오기 및 주요 UI 한국어 출력
-- 갈무리 레귤러 기반 한국어 글꼴 적용
-- 역·신사·상점가·교차로·코인세탁소 등 이미지 한국어화
-- 조명과 배경 애니메이션을 유지한 이미지 교체
 
 ## 자동 설치
 
