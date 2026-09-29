@@ -10,6 +10,8 @@ Steam판 **UTSUTSUTSU** 비공식 한국어 패치 저장소입니다.
 
 ## 배포본
 
+[최신 릴리스](https://github.com/etashi04/U-TSU-TSU-TSU/releases/latest)에서 다운로드하세요.
+
 - `UTSUTSUTSU_Korean_Patch_v1.0.0.zip`: GUI 설치기를 통한 자동 설치·원본 복구
 - `UTSUTSUTSU_Korean_Patch_Manual_v1.0.0.zip`: 게임 실행 파일이 있는 폴더에 직접 복사
 - `SHA256SUMS.txt`: 배포 ZIP 무결성 확인용 체크섬
