@@ -1,0 +1,6 @@
+2026-10-10 / v1.0.1 / Steam build 25706167
+PASS: 25 source strings exist in current assets and match installed translations.
+PASS: fresh install and restore; v1.0.0 upgrade and restore; unrelated file preserved.
+PASS: Auto/Manual ZIP CRC; payload translation equality; SHA256SUMS.
+PASS: game startup, Korean fonts and animation plugin initialization (verified_startup.log).
+Not tested: all in-game dialogue scenes.

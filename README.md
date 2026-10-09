@@ -2,7 +2,7 @@
 
 Steam판 **UTSUTSUTSU** 비공식 한국어 패치 저장소입니다.
 
-현재 정식 배포 버전은 `v1.0.0`이며 Steam 2026-08-29 빌드, Windows x64 환경에서 확인했습니다.
+현재 정식 배포 버전은 `v1.0.1`이며 Steam 빌드 25706167, Windows x64 환경에서 확인했습니다.
 
 <img width="850" height="478" alt="image" src="https://github.com/user-attachments/assets/66173eea-2b93-4e6d-8b58-84f55282275d" />
 <img width="850" height="478" alt="image" src="https://github.com/user-attachments/assets/4a8109ee-379d-4fb2-9f8b-1ee7efd8793d" />
@@ -12,8 +12,8 @@ Steam판 **UTSUTSUTSU** 비공식 한국어 패치 저장소입니다.
 
 [최신 릴리스](https://github.com/etashi04/U-TSU-TSU-TSU/releases/latest)에서 다운로드하세요.
 
-- `UTSUTSUTSU_Korean_Patch_v1.0.0.zip`: GUI 설치기를 통한 자동 설치·원본 복구
-- `UTSUTSUTSU_Korean_Patch_Manual_v1.0.0.zip`: 게임 실행 파일이 있는 폴더에 직접 복사
+- `UTSUTSUTSU_Korean_Patch_v1.0.1.zip`: GUI 설치기를 통한 자동 설치·원본 복구
+- `UTSUTSUTSU_Korean_Patch_Manual_v1.0.1.zip`: 게임 실행 파일이 있는 폴더에 직접 복사
 - `SHA256SUMS.txt`: 배포 ZIP 무결성 확인용 체크섬
 
 게임을 종료한 상태에서 설치하세요. 저장 데이터는 수정하지 않습니다.
@@ -58,3 +58,9 @@ Steam판 **UTSUTSUTSU** 비공식 한국어 패치 저장소입니다.
 - 게임 업데이트 후 호환되지 않을 수 있습니다.
 - 제3자 구성요소의 라이선스는 `THIRD_PARTY_NOTICES.txt`를 확인하세요.
 
+
+## v1.0.1 변경 사항
+
+- Steam 빌드 25706167에서 변경된 대사 25개의 번역 키와 한국어 표현을 보완했습니다.
+- 게임 기동, 폰트·플러그인 초기화 및 25개 원문-번역 연결을 확인했습니다. 전체 장면 플레이 검증은 포함하지 않습니다.
+- 플러그인 DLL 버전 1.0.0 표시는 정상입니다. 이번 업데이트는 번역 데이터 보완입니다.

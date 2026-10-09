@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
@@ -9,8 +9,9 @@ using System.Windows.Forms;
 
 internal static class Program
 {
-    const string Version = "v1.0.0";
+    const string Version = "v1.0.1";
     const string ExeHash = "67C89E57ED43C3F0AB90510EC2DD742537FAABA14FAF8246296D139674DFADE7";
+    // Keep the existing backup directory when upgrading from v1.0.0.
     const string MarkerDir = "_KR_PATCH_v1.0.0";
 
     [STAThread]
@@ -51,7 +52,7 @@ internal static class Program
             var logo = new PictureBox { Dock = DockStyle.Fill, SizeMode = PictureBoxSizeMode.Zoom, Image = LoadLogo(), Margin = new Padding(6) };
             logoPanel.Padding = new Padding(7);
             logoPanel.Controls.Add(logo);
-            var info = new Label { Text = "지원 게임: Steam 2026-08-29 빌드 · 원본 파일은 자동 백업됩니다.", Left = 28, Top = 91, Width = 585, Height = 24 };
+            var info = new Label { Text = "지원 게임: Steam 빌드 25706167 · 원본 파일은 자동 백업됩니다.", Left = 28, Top = 91, Width = 585, Height = 24 };
             var folderLabel = new Label { Text = "게임 설치 폴더", Left = 28, Top = 125, Width = 150, Height = 22 };
             path.Left = 28; path.Top = 148; path.Width = 475; path.Height = 25; path.Text = GuessPath();
             var browse = new Button { Text = "찾아보기", Left = 513, Top = 146, Width = 100, Height = 29 };
@@ -120,6 +121,9 @@ internal static class Program
             string marker = Path.Combine(target, MarkerDir);
             string backup = Path.Combine(marker, "원본백업");
             var installed = new List<string>();
+            string previousManifest = Path.Combine(marker, "설치파일목록.txt");
+            var previouslyInstalled = new HashSet<string>(File.Exists(previousManifest)
+                ? File.ReadAllLines(previousManifest) : new string[0], StringComparer.OrdinalIgnoreCase);
             try
             {
                 ExtractEmbeddedPayload(payload);
@@ -129,7 +133,7 @@ internal static class Program
                     string relative = source.Substring(payload.Length).TrimStart(Path.DirectorySeparatorChar);
                     string destination = Path.Combine(target, relative);
                     string backupFile = Path.Combine(backup, relative);
-                    if (File.Exists(destination) && !File.Exists(backupFile))
+                    if (File.Exists(destination) && !File.Exists(backupFile) && !previouslyInstalled.Contains(relative))
                     {
                         Directory.CreateDirectory(Path.GetDirectoryName(backupFile));
                         File.Copy(destination, backupFile, true);
